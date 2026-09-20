@@ -1,0 +1,35 @@
+name: medidor_metro
+description: "Aplicación de realidad aumentada para medir distancias en iPhone 16 Plus."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Estado y datos
+  provider: ^6.0.0
+  shared_preferences: ^2.2.0
+
+  # Cámara
+  camera: 0.11.0+2
+
+  # Interfaz
+  cupertino_icons: ^1.0.2
+
+  # Utilidades
+  uuid: ^4.0.0
+  vector_math: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
